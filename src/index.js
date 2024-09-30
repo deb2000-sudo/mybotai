@@ -24,9 +24,6 @@ const router = createBrowserRouter([
   }
 ]);
 
-// Get the root element and render the app
-// const check=document.getElementById('root')
-// console.log(check);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <StrictMode>
